@@ -14,4 +14,10 @@ class Patient
       @appointments
     end
     
+    def doctors
+      @appointments.map do | appt|
+        binding.pry
+      end  
+    end    
+    
 end
