@@ -6,8 +6,6 @@ class Appointment
       doctor.add_appointment(self)
     end
     
-    # def add_appointment
-      
-    # end
+    
   
 end
