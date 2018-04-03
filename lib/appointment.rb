@@ -3,7 +3,7 @@ class Appointment
     
     def initialize(title, doctor)
       @title = title
-      doctor.add_appointment = self
+      doctor.add_appointment(title) = self
     end
     
     # def add_appointment
